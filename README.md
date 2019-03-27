@@ -1,24 +1,14 @@
-# README
+# Calendar Event manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* git clone git@github.com:krishnau2/avaamo_event_manager.git
 
-Things you may want to cover:
+* cd avaamo_event_manager
 
-* Ruby version
+* bundle install
 
-* System dependencies
+* rake db:migrate
 
-* Configuration
+* To Seed user data: rake seed_app_data:seed_user
 
-* Database creation
+* To Seed events: rake seed_app_data:seed_events
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
